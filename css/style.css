@@ -902,6 +902,13 @@ li::after {
     line-height: 26px;
     color: #FFFFFF;
     margin-top: 51px;
+    transition: 0.5s;
+}
+
+.initial-design-left button:hover{
+    color: black;
+    border: 1px solid #000000 !important;
+    background: transparent;
 }
 
 .initial-design-left button img {
@@ -955,7 +962,7 @@ li::after {
 .end-result-left button {
     width: 207px;
     height: 70px;
-    padding: 22px 32px;
+    padding: 22px 30px;
     background: #292F36;
     border-radius: 18px;
     font-family: 'Jost';
@@ -965,6 +972,12 @@ li::after {
     line-height: 26px;
     color: #FFFFFF;
     margin-top: 51px;
+}
+
+.end-result-left button:hover{
+    color: black;
+    border: 1px solid #000000 !important;
+    background: transparent;
 }
 
 .end-result-left button img {
@@ -1188,7 +1201,15 @@ li::after {
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+    transition: 00.5s;
 }
+
+.form-button-con button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #000000 !important;
+}
+
 
 .form-button-con button img {
     padding-left: 10px;
@@ -1477,6 +1498,13 @@ li::after {
     line-height: 26px;
     color: #FFFFFF;
     margin-top: 110px;
+    transition: 0.5s;
+}
+
+.reach-right-button button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #000000 !important;
 }
 
 .reach-right-button button img {
