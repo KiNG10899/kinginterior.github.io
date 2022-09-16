@@ -1,0 +1,1603 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;800;900&family=Jost:wght@400;500;600;700;800&family=Ubuntu:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* <----------NAVIGATION START----------> */
+.mobile-nav{
+    display: none;
+}
+
+header{
+  background:  #FFFFFF;
+}
+
+.nav-logo img{
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+
+.nav-menu a:first-child{
+    padding-left: 0px;
+}
+.nav-menu li{
+position: relative;
+}
+.nav-menu a{
+    padding-left: 40px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #292F36;
+    padding-top: 36px;
+    padding-bottom: 27px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-menu a:hover{
+    color: #292F36;
+}
+
+li::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: #CDA274;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+li::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: #CDA274;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-menu a:hover li::after {
+	width: 100%;
+	left: 0;
+}
+
+.nav-menu a:hover li::after {
+	width: 100%;
+	left: 0;
+}
+/* <----------NAVIGATION END----------> */
+
+/* <---------------HEADER START----------> */
+
+.header-with-slider{
+    width: 100%;
+   height: 840px;
+   background: url(../images/headerimg1.png) no-repeat;
+   background-size: cover;
+}
+
+.header-txt{
+    padding-left: 100px;
+    position: sticky;
+}
+
+.header-txt h1{
+    width: 608px;
+    height: 262px;
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+color: #292F36;
+padding-top: 69px;
+margin-bottom: 0px;
+}
+
+.header-txt p{
+    width: 649px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #292F36;
+padding-top: 18px;
+}
+
+.header-txt button{
+    width: 196px;
+    height: 70px;
+    padding: 22px 30px;
+    background: #292F36;
+    border-radius: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 71px;
+    transition: 0.5s;
+    border: none;
+}
+
+.header-txt button:hover{
+     color: #292F36;
+     font-size: 16px;
+     border: 1px solid black;
+     background-color: transparent;
+}
+
+.header-txt button img{
+    padding-left: 13px;
+    margin-bottom: 0px;
+}
+/* <---------------HEADER END----------> */
+
+ /* <-----------------ABOUT-SECTION START--------------> */
+ .about-sec-main-mobile-con{
+    display: none;
+ }
+
+ .about-sec-con{
+      margin-top: 114px;
+ }
+
+ .interior-design{
+      width: 384px;
+      height: 326px;
+text-align: center;
+border-radius: 32px;
+transition: 0.5s;
+ }
+
+ .interior-design:hover{
+  background: #F4F0EC;
+ }
+
+ .interior-design h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 64px;
+ }
+
+ .interior-design p{
+    width: 312px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+padding-top: 16px;
+margin: auto;
+ }
+
+ .interior-design button{
+    margin: auto;
+    background: none;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 32px;
+border: none;
+ }
+
+ .interior-design button img{
+    padding-left: 20px;
+    padding-top: 3px;
+ }
+ /* <-----------------ABOUT-SECTION END--------------> */
+
+ /* <------------CONTACT-SECTION SATRT-----------> */
+ .contact-sec-con{
+    margin-top: 120px;
+ }
+
+ .contact-txt h1{
+    width: 482px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 69px;
+color: #292F36;
+margin-bottom: 0px;
+ }
+
+ .contact-txt p{
+    width: 510px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 24px;
+}
+
+.contact-info{
+    margin-top: 48px;
+}
+
+.contact-info-right-mobile{
+    display: none;
+}
+
+ .contact-info-right{
+    margin-left: 15px;
+ }
+
+ .contact-info-right h2{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #292F36;
+padding-top: 10px;
+ }
+
+ .contact-info-right h3{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+padding-top: 7px;
+ }
+
+ .contact-txt button{
+     width: 247px;
+     height: 70px;
+align-items: center;
+padding: 22px 32px;
+background: #292F36;
+border-radius: 18px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-top: 48px;
+margin-bottom: 0px;
+transition: 0.5s;
+border: none;
+ }
+
+ .contact-txt button:hover{
+       border: 1px solid #292F36;
+       background-color: white;
+       color: black;
+ }
+
+ .contact-txt button img{
+    padding-left: 10px;
+ }
+/* <------------CONTACT-SECTION END-----------> */
+
+/* <---------REVIEW-SEC START---------> */
+.review-tab-slider{
+    display: none;
+}
+
+.review-con{
+    width: 1200px;
+    background-color: #F4F0EC;
+    margin-top: 120px;
+    background: #F4F0EC;
+border-radius: 60px;
+padding-bottom: 85px;
+}
+
+.review-mob-slider{
+    display: none;
+}
+
+.owl-carousel-review-tab{
+    display: none;
+}
+
+.review-second-con{
+    margin-top: 40px;
+}
+
+.review-tab-item{
+    width: fit-content;
+}
+
+.review-con h1{
+    width: 511px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+text-align: center;
+color: #000000;
+margin: auto;
+padding-top: 85px;
+}
+
+.review-box{
+    width: 349px;
+    height: 278px;
+   padding: 32px 18px 50px 34px;
+background: #FFFFFF;
+border-radius: 32px;
+}
+
+.review-box-top {
+    padding-top: 32px;
+}
+
+.review-box-top-lft{
+    padding-left: 16px;
+}
+
+.review-box-top-lft h2{
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 6px;
+}
+
+.review-box-top-lft h3{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #292F36;
+padding-top: 6px;
+margin-bottom: 0px;
+}
+
+.review-box p{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #292F36;
+margin-bottom: 45px;
+padding-top: 32px;
+}
+/* <---------REVIEW-SEC END---------> */
+
+/* <----------COMPANY-LOGOS START-------------> */
+.logos-for-res{
+    display: none;
+}
+
+.logos-for-tablet{
+    display: none;
+}
+
+.logos-row{
+    margin-top: 120px;
+    margin-left: 56px;
+    display: flex;
+}
+
+.logos-row img{
+    margin-left: 114px;
+}
+
+/* <----------COMPANY-LOGOS END-------------> */
+
+/* <--------------PROJECT-SECTION START-----------> */
+.project-sub-contant img{
+    width: 100%;
+}
+
+.project-sub-contant img{
+    border-radius: 0px 80px 0px 0px;
+}
+
+.projects-main-con{
+    margin-top: 151px;
+}
+
+.projects-sub-con{
+    margin-top: 64px;
+}
+
+.projects-main-con h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+text-align: center;
+color: #000000;
+margin-bottom: 0px;
+}
+
+.projects-main-con p{
+    width: 767px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #292F36;
+margin: auto;
+padding-top: 24px;
+}
+
+.sub-bottom-txt h2{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+margin-bottom: 0px;
+padding-top: 33px;
+}
+
+.sub-bottom-txt h3{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 10px;
+}
+
+.project-sub-con-bottom{
+    /* display: flex; */
+}
+
+.project-sub-con-bottom button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #F4F0EC;
+    border: none;
+    margin-top: 36px;
+    margin-left: 270px;
+}
+
+.project-sub-con-bottom button img{
+    width: 10px;
+}
+
+.experiance-contant h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+text-align: center;
+color: #CDA274;
+}
+
+.experiance-contant h2{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+text-align: center;
+}
+/* <--------------PROJECT-SECTION END-----------> */
+
+/* <--------------EXPERINCE-SECTION START------------> */
+.experiance-main-con{
+    height: 481px;
+   margin-top: 120px;
+   background: #F4F0EC;
+}
+
+.experiance-sub-con{
+    padding-top: 173px;
+}
+
+.experiance-contant{
+    border-right: 1px solid #CDA274;
+}
+/* <--------------EXPERINCE-SECTION END------------> */
+
+/* <-----------OUR-PROJECTS START-----------> */
+.our-project-tablet{
+    display: none;
+}
+
+.our-project-main-con{
+    padding-top: 120px;
+}
+
+.our-projects-top-con{
+    padding-top: 56px;
+}
+
+.our-projects-bottom-con{
+    padding-top: 30px;
+}
+
+.our-project-main-con h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+text-align: center;
+color: #292F36;
+margin-bottom: 0px;
+}
+
+.our-project-main-con p{
+    width: 767px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 24px;
+margin: auto;
+}
+
+.our-project-con-box{
+    /* width: 100%; */
+height: 487px;
+border-radius: 32px;
+border: 1px solid #F4F0EC;
+transition: 0.5s;
+}
+
+.our-project-con-box:hover{
+    background: #F4F0EC;
+}
+
+.our-project-con-box:hover .our-project-bottom button{
+    background: #FFFFFF;
+}
+
+.our-project-con-box img{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 16px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.our-project-con-box h2{
+    width: 323px;
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+padding-left: 17px;
+padding-top: 17px;
+}
+
+.our-project-bottom h3{
+    width: 150px;
+ font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #292F36;
+padding-top: 30px;
+padding-left: 17px;
+}
+
+.our-project-bottom button{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #F4F0EC;
+    border: none;
+    margin-top: 17px;
+    margin-left: 170px;
+}
+
+.our-project-bottom button img{
+    width: 6px;
+    height: 12px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left: 4px;
+    margin-top: -5px;
+}
+/* <-----------OUR-PROJECTS END-----------> */
+
+/* <----------------FREE-ESTIMATE START----------> */
+.free-estimate-main-con{
+    margin-top: 120px;
+    background: #292F36;
+    border-radius: 80px;
+}
+
+.estimate-con-box h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 0px;
+padding-top: 92px;
+}
+
+.estimate-con-box h2{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 0px;
+padding-top: 17px;
+}
+
+.estimate-con-box button{
+    width: 247px;
+    height: 70px;
+    padding: 22px 30px;
+background: #CDA274;
+border-radius: 18px;
+margin: auto;
+margin-top: 39px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+margin-bottom: 92px;
+border: none;
+transition: 0.5s;
+}
+
+.estimate-con-box button:hover{
+    background: none;
+    border: 1px solid  #FFFFFF;
+    font-size: 16px;
+}
+
+.estimate-con-box button img{
+    padding-left: 14px;
+    font-size: 16px;
+    
+}
+/* <----------------FREE-ESTIMATE END----------> */
+
+/* <------------FOOTER START-------------> */
+.footer-main-con{
+    margin-top: 123px;
+}
+
+.footer-con-box2{
+    width: fit-content;
+    margin: auto;
+}
+
+.footer-con-box1 p{
+    width: 306px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #292F36;
+    padding-top: 16px;
+}
+
+.footer-con-box2 h1{
+   font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+margin-bottom: 0px;
+padding-top: 20px;
+}
+
+.footer-con-box2 p{
+    width: fit-content;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+margin-top: 18px;
+padding: 0px;
+}
+
+.footer-con-box4 h1{
+font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.footer-con-box4 p{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+padding-top: 18px;
+margin-bottom: 0px;
+}
+
+.footer-con-box4 h5{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 30px;
+}
+
+.footer-con-box4 h6{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 40px;
+}
+
+.copyright-main-con{
+border-top: 1px solid #F4F0EC;
+margin-top: 48px;
+}
+
+.copyright h6{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 48px;
+}
+/* <------------FOOTER END-------------> */
+
+
+
+/* <--------------ABOUT-SECTION START---------------> */
+
+.about-header{
+    width: 100%;
+   height: 350px;
+   background: url(../images/aboutheaderimage.png);
+   background-size: cover;
+}
+
+.about-header-txt{
+ margin-left: 120px;
+}
+
+.about-header-txt h1{
+    width: fit-content;
+    height: 96px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #292F36;
+    margin-bottom: 0px;
+    margin-top: 47px;
+    line-height: 96px;
+}
+
+.subtitle a{
+    width: fit-content;
+    height: 32px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #292F36;
+line-height: 32px;
+text-decoration: none;
+padding: 5px;
+transition: 0.5s;
+}
+
+.subtitle a:hover{
+    color: #CDA274;
+}
+
+.middle-mark{
+    padding-top: 8px;
+}
+/* <--------------ABOUT-SECTION END---------------> */
+
+/* <-----INITIAL-DESIGN START-------> */
+.initial-main-con{
+    margin-top: 136px;
+}
+
+.initial-design-left h1{
+    width: fit-content;
+/* height: 69px; */
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 69px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 21px;
+}
+
+.initial-design-left p{
+    width: 458px;
+    height: 128px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #292F36;
+    margin-top: 16px;
+}
+
+.initial-design-right img{
+    border-radius: 50px;
+}
+
+
+.initial-design-left button{
+    width: 207px;
+    height: 70px;
+padding: 22px 32px;
+background: #292F36;
+border-radius: 18px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-top: 51px;
+}
+
+.initial-design-left button img{
+    padding-left: 20px;
+}
+/* <-----INITIAL-DESIGN END-------> */
+
+/* <--------END-RESULT START-------> */
+.end-result-mobile-con{
+    display: none;
+}
+
+.end-result-tab-main-con{
+    display: none;
+}
+
+.end-result-main-con{
+   margin-top: 136px;
+}
+
+.end-result-right img{
+    border-radius: 50px;
+}
+
+.end-result-left h1{
+    width: fit-content;
+/* height: 69px; */
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 69px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 21px;
+}
+
+.end-result-left p{
+    width: 458px;
+    height: 128px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #292F36;
+    padding-top: 16px;
+}
+
+.end-result-left button{
+    width: 207px;
+    height: 70px;
+padding: 22px 32px;
+background: #292F36;
+border-radius: 18px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-top: 51px;
+}
+
+.end-result-left button img{
+    padding-left: 12px;
+}
+
+.end-result-mobile-right img{
+    border-radius: 50px;
+}
+/* <--------END-RESULT END-------> */
+
+/* <------------TEAM------------> */
+.team-fluid-con{
+   background-color: #F4F0EC;
+   padding-top: 85px;
+   padding-bottom: 94px;
+   margin-top: 136px;
+}
+
+.team-heading-con{
+    text-align: center;
+}
+
+.team-heading-con h1{
+    /* Width: 511px; */
+    /* height: 66px; */
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-top: 85px;
+}
+
+.team-heading-con p{
+    width: 657px;
+/* height: 119px; */
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #292F36;
+margin: auto;
+margin-bottom: 0px;
+padding-top: 16px;
+}
+
+.team-image-con{
+    margin-top: 46px;
+}
+
+.team-contant-box img{
+    width: 100%;
+}
+
+.team-contant-box h2{
+    /* width: 143px; */
+/* height: 33px; */
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 16px;
+}
+
+.team-contant-box h3{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #292F36;
+padding-top: 8px;
+}
+/* <-----------TEAM-----------> */
+
+/* <----------CREATIVE----------> */
+.creative-heading{
+  padding-top: 112px; 
+}
+
+.creative-heading h1{
+    width: 633px;
+    height: 132px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+}
+
+
+.form-group {
+    height: 3em;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form-group input,
+  .form-group label {
+    cursor: text;
+    font-size: 1.5em;
+    font-weight: 200;
+    position: absolute;
+    transition: all 0.15s ease;
+    width: 100%;
+  }
+
+  
+  .form-group textarea,
+  .form-group label {
+    cursor: text;
+    font-size: 1.0em;
+    font-weight: 200;
+    position: absolute;
+    transition: all 0.15s ease;
+    width: 100%;
+  }
+  
+  .form-group input {
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    padding: 20px 20px 0;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+  }
+
+  
+  .form-group textarea {
+    border: none;
+    border-radius: 4px;
+    height: 60px;
+    padding: 20px 20px 0;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+  }
+  
+  
+  .form-group label {
+    color: #9B9B9B;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  .form-group textarea {
+    color: #9B9B9B;
+    font-weight: 400;
+    line-height: 60px;
+    padding: 0 20px;
+    text-transform: uppercase;
+  }
+  
+  .form-group input.filled ~ label,
+  .form-group input:focus ~ label {
+    font-size: .9em;
+    position: absolute;
+    margin-top: -12px;
+  }
+
+  .form-group textarea.filled ~ label,
+  .form-group textarea:focus ~ label {
+    font-size: .9em;
+    position: absolute;
+    margin-top: -12px;
+  }
+
+  .form-group input.filled ~ label {
+    color: #007932;
+  }
+
+  .form-group textarea.filled ~ label {
+    color: #007932;
+  }
+
+.form-con{
+    margin-top: 66px;
+}
+
+.form-con2{
+    margin-top: 39px;
+}
+
+.form-button-con{
+    display: flex;
+    justify-content: center;
+}
+
+.form-button-con button{
+    width: 207px;
+    height: 70px;
+justify-content: center;
+align-items: center;
+padding: 22px 32px;
+background: #292F36;
+border-radius: 18px;
+ margin-top: 142px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.form-button-con button img{
+    padding-left: 10px;
+}
+/* <----------CREATIVE----------> */
+
+.dis-con{
+    padding-top: 73.16px;
+    padding-bottom: 75px;
+    background-color: #F4F0EC;
+    border-radius: 60px;
+    text-align: center;
+    margin-top: 112px;
+}
+
+.dis-con h1{
+    width: 847px;
+height: 82px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: #CDA274;
+margin: auto;
+padding-top: 23.56px;
+}
+
+/* <-------------SERVICES START----------- */
+.about-header-txt{
+    width: fit-content !important;
+}
+
+.about-header{
+    width: 100%;
+   height: 350px;
+   background: url(../images/srvicesheaderimage.png);
+   background-size: cover;
+}
+
+.about-header-txt{
+ margin-left: 120px;
+}
+
+.about-bottom-main-con{
+    margin-top: 40px;
+}
+
+.how-we-wrk-con{
+    padding-top: 72px;
+    padding-bottom: 137px;
+    background-color: #F4F0EC;
+    border-radius: 60px;
+    margin-top: 66px;
+}
+
+.how-we-wrk-con h1{
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+text-align: center;
+color: #000000;
+margin-bottom: 0px;
+}
+
+.how-we-wrk-con p{
+    width: 769px;
+    height: 119px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #292F36;
+margin: auto;
+padding-top: 16px;
+}
+
+.hww-left img{
+    /* width: 100%; */
+    border-radius: 0px 100px 0px 300px;
+}
+
+.hww-right img{
+    margin-top: 81px;
+}
+
+.hww-right h2{
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+color: #000000;
+    padding-top: 32px;
+    margin-bottom: 0px;
+}
+
+.hww-right h3{
+    width: 470px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+padding: 0px;
+padding-top: 16px;
+margin-bottom: 0px;
+}
+
+.plan-desighn-mobile-con{
+    display: none;
+}
+
+.evalution-main-con{
+ margin-top: 104px;
+}
+
+.evalution-mobile-main-con{
+    display: none;
+}
+
+.evalution-left img{
+    margin-top: 81px;
+}
+
+.evalution-left h4{
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+color: #000000;
+margin-bottom: 0px;
+padding-top: 38px;
+}
+
+.evalution-left h5{
+    width: 470px;
+height: 119px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+margin-bottom: 0px;
+padding-top: 16px;
+}
+
+.evalution-right img{
+    border-radius: 0px 100px 0px 300px;
+}
+/* -----------------SERVICES END------------- */
+.our-projects-sub-con{
+    margin-top: 94px;
+}
+
+.our-projects-sub-con2{
+    margin-top: 52px;
+}
+
+.contactus-sub-con{
+    margin-top: 50px;
+}
+
+.contactus-main-con h1{
+    width: 633px;
+    /* height: 132px; */
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    padding-top: 39px;
+}
+
+.reach-left{
+    width: 384px;
+height: 480px;
+background: #F4F0EC;
+border-radius: 50px;
+}
+
+.email-row{
+    padding-top: 81px;
+    padding-left: 28px;
+}
+
+.email-row h6{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #292F36;
+    padding-top: 14.4px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+.contact-row{
+    padding-top: 32px;
+    padding-left: 28px;
+}
+
+.contact-row h6{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #292F36;
+    padding-top: 14.4px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+
+.universal-row{
+    padding-top: 32px;
+    padding-left: 28px;
+}
+
+.universal-row h6{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #292F36;
+    padding-top: 14.4px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+.reach-meta-row{
+    width: fit-content;
+    background: #FFFFFF;
+    margin: auto;
+    margin-top: 45px;
+    padding: 14px;
+    border-radius: 15px;
+}
+
+.reach-meta-row a{
+   text-decoration: none;
+   color: #292F36;
+   padding: 0px 20px;
+   font-size: 18px;
+}
+
+.reach-meta-row a:hover{
+    color:  #CDA274;
+}
+
+.reach-right{
+    margin-top: 25px;
+}
+
+.reach-right-button{
+    display: flex;
+    justify-content: end;
+}
+
+.reach-right-button button{
+    width: 207px;
+    height: 70px;
+padding: 22px 56px;
+background: #292F36;
+border-radius: 18px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-top: 110px;
+}
+
+.reach-right-button button img{
+    margin-left: 26px;
+}
+
+.contactus-input{
+    margin-top: 39px;
+}
+
+/* <---------PRODUCTS DETAILS PAGE START----------> */
+.pd-image-slider-item{
+   width: 856px;
+   height: 550px;
+}
+
+.pro-slier-con{
+    margin-top: 60px;
+}
+
+.for-border{
+    width: 100%;
+    border: 1px solid #CDA274;
+}
+
+.expert-advice-mob{
+    display: none;
+}
+
+.expert-advice{
+    width: 390px;
+    height: 290px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 40px 0px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    position: sticky;
+}
+
+.pd-phone{
+    color: gray;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.expert-advice p{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Jost';
+    padding-top: 24px;
+}
+
+.expert-advice button{
+    padding: 10px 32px;
+    width: 80%;
+    background: #CDA274;
+    border-radius: 18px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+margin: auto;
+margin-top: 24px;
+display: flex;
+justify-content: center;
+transition: 0.5s;
+}
+
+.expert-advice button:hover{
+    background: transparent;
+    border: 1px solid #000000 !important;
+    color: black;
+}
+
+.pf-main-con h3{
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+}
+
+.for-border2{
+    width: 800px;
+    border: 1px solid #CDA274;
+}
+
+.pf-contant-box {
+    padding-top: 20px;
+}
+
+.pf-contant-box i{
+    padding-top: 5px;
+    color: #CDA274;
+    font-size: 22px;
+}
+
+.pf-contant-box h2{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #292F36;
+padding-left: 10px;
+}
+
+.pf-main-con2 {
+    margin-top: 40px;
+}
+
+.pf-main-con2 h3{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.pf-dis p{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #292F36;
+padding-top: 24px;
+}
+
+.fluid-border{
+    width: 100%;
+    border: 1px solid #CDA274;
+    margin-top: 120px;
+}
+/* <---------PRODUCTS DETAILS PAGE END----------> */
