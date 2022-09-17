@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/smallimgmobowl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/smallproowl.carousel.min.css">
-    <link rel="stylesheet" href="css/smallimgmobowl.carousel.min.css">
 
 
     <!-- javascript -->
@@ -151,37 +151,39 @@
 
     <!-- <------SMALL-IMG-SLIDER STAR----->
         <div class="container small-img-mob-slider">
+            <div class="row">
             <div class="col-sm-12">
                 <div class="owl-carousel-small-mob-img">
                     <div class="item">
-                        <img src="images/projectimage2.png" width="100px" height="80px" onclick="cast(1)">
+                        <img src="images/projectimage2.png" onclick="cast(1)">
                     </div>
                     <div class="item">
-                        <img src="images/projectimage3.png" width="100px" height="80px" onclick="cast(2)">
+                        <img src="images/projectimage3.png" onclick="cast(2)">
 
                     </div>
                     <div class="item">
-                        <img src="images/projectimage4.png" width="100px" height="80px" onclick="cast(3)">
+                        <img src="images/projectimage4.png" onclick="cast(3)">
                     </div>
                     <div class="item">
-                        <img src="images/projectimage5.png" width="100px" height="80px" onclick="cast(4)">
+                        <img src="images/projectimage5.png" onclick="cast(4)">
 
                     </div>
                     <div class="item">
-                        <img src="images/projectimage6.png" width="100px" height="80px" onclick="cast(5)">
+                        <img src="images/projectimage6.png" onclick="cast(5)">
                     </div>
                     <div class="item">
-                        <img src="images/projectimage7.png" width="100px" height="80px" onclick="cast(6)">
+                        <img src="images/projectimage7.png" onclick="cast(6)">
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     <!-- <------SMALL-IMG-SLIDER END----->
 
 
-    <div class="container">
+    <div class="container small-img-con">
 
-            <div class="col-lg-8 mt-4 small-img-con">
+            <div class="col-lg-8 mt-4">
                 <div class="owl-carousel-small-product-img">
                     <div class="item">
                         <img src="images/projectimage2.png" width="170px" height="110px" onclick="cast(1)">
@@ -470,7 +472,7 @@
             items: 4,
             loop: true,
             margin: 0,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 1000,
             autoplayHoverPause: true
 
@@ -522,6 +524,7 @@
             }
         }
     </script>
+
 
 </body>
 
